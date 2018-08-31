@@ -11,15 +11,31 @@ url: "" # the base hostname & protocol for your site
 # User setting
 owner:
 email:
-facebook_username:
-twitter_username:
-github_username:
+facebook_username:future
+twitter_username:future
+github_username:future
 address:
   - line:
   - line:
   # Feel free to add more lines here 
 telephone:
 copyright:
+
+# 评论系统
+# Disqus（https://disqus.com/）
+# disqus_username: weilai
+
+# Gitalk
+gitalk:
+  enable: true    #是否开启Gitalk评论
+  clientID: 7e521510fffc332ad8ae                           #生成的clientID
+  clientSecret: 21cb84e10e0d2139e5db8d72d9a0e6f4fbdd74a0   #生成的clientSecret
+  repo: future2.github.io    #仓库名称
+  owner: weilai   #github用户名
+  admin:weilai
+  distractionFreeMode: true #是否启用类似FB的阴影遮罩
+
+
 
 # API settings
 google_api_key:
